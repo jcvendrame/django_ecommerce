@@ -16,6 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from .views import home_page, about_page, contact_page
+'''Adicionado imports: about_page e contact_page
+e adicionado urlpatterns'''
 
 urlpatterns = [
     path('', home_page),
